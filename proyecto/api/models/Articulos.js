@@ -8,20 +8,10 @@
 module.exports = {
 
   attributes: {
-
-    //  ╔═╗╦═╗╦╔╦╗╦╔╦╗╦╦  ╦╔═╗╔═╗
-    //  ╠═╝╠╦╝║║║║║ ║ ║╚╗╔╝║╣ ╚═╗
-    //  ╩  ╩╚═╩╩ ╩╩ ╩ ╩ ╚╝ ╚═╝╚═╝
-
-
-    //  ╔═╗╔╦╗╔╗ ╔═╗╔╦╗╔═╗
-    //  ║╣ ║║║╠╩╗║╣  ║║╚═╗
-    //  ╚═╝╩ ╩╚═╝╚═╝═╩╝╚═╝
-
-
-    //  ╔═╗╔═╗╔═╗╔═╗╔═╗╦╔═╗╔╦╗╦╔═╗╔╗╔╔═╗
-    //  ╠═╣╚═╗╚═╗║ ║║  ║╠═╣ ║ ║║ ║║║║╚═╗
-    //  ╩ ╩╚═╝╚═╝╚═╝╚═╝╩╩ ╩ ╩ ╩╚═╝╝╚╝╚═╝
+     //ingresamos atributos para model articulos
+     nombre: {type: 'string', required: true},
+     precio: {type: 'number', required: true},
+     cantidad: {type: 'number', required: true},
 
   },
 

@@ -8,20 +8,10 @@
 module.exports = {
 
   attributes: {
-
-    //  ╔═╗╦═╗╦╔╦╗╦╔╦╗╦╦  ╦╔═╗╔═╗
-    //  ╠═╝╠╦╝║║║║║ ║ ║╚╗╔╝║╣ ╚═╗
-    //  ╩  ╩╚═╩╩ ╩╩ ╩ ╩ ╚╝ ╚═╝╚═╝
-
-
-    //  ╔═╗╔╦╗╔╗ ╔═╗╔╦╗╔═╗
-    //  ║╣ ║║║╠╩╗║╣  ║║╚═╗
-    //  ╚═╝╩ ╩╚═╝╚═╝═╩╝╚═╝
-
-
-    //  ╔═╗╔═╗╔═╗╔═╗╔═╗╦╔═╗╔╦╗╦╔═╗╔╗╔╔═╗
-    //  ╠═╣╚═╗╚═╗║ ║║  ║╠═╣ ║ ║║ ║║║║╚═╗
-    //  ╩ ╩╚═╝╚═╝╚═╝╚═╝╩╩ ╩ ╩ ╩╚═╝╝╚╝╚═╝
+    //ingresamos atributos para model users
+    nombre: {type: 'string', required: true},
+    apellidos: {type: 'string', allowNull: true},
+    edad: {type: 'number', required: true},
 
   },
 
